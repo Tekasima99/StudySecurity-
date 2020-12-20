@@ -20,12 +20,12 @@ Layer 1 = Physical
 ```
 ## Basic Network Devices
 - Switch.
-```markdown
+
 > Utilized as an Application-Specific Integrated Circuit(ASIC) and considered as LAYER 2 OSI device:
  1. ASIC chip has specific programing that allow switch to learn when a device is on the network and which ports it is connected to cia that device's layer 2 MAC address.
 > Managed switches allow for security to be placed on inviduals switch ports and creating more secure enviroment in networking
 > Switch only communicate with local network devices.
-```
+
 - Wireless Access Point(WAP).
 ```markdown
 > WAP is a specific type of network that connect wireless network segments with wired network segments and considered as as layer 2 OSI device:
