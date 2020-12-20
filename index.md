@@ -22,20 +22,29 @@ Layer 1 = Physical
 - Switch
 ```markdown
 > Utilized as an Application-Specific Integrated Circuit(ASIC) and considered as LAYER 2 OSI device:
- 1. ASIC chip has specific programing that allow switch to learn when a device is on the network and which ports it is connected       to cia that device's layer 2 MAC address.
+ 1. ASIC chip has specific programing that allow switch to learn when a device is on the network and which ports it is connected to cia that device's layer 2 MAC address.
 > Managed switches allow for security to be placed on inviduals switch ports and creating more secure enviroment in networking
 > Switch only communicate with local network devices.
 ```
-```markdown
 - Wireless Access Point(WAP)
-> WAP is a specific type of network that connect wireless network segments with wired network segments and considered as as layer   2 OSI device:
+```markdown
+> WAP is a specific type of network that connect wireless network segments with wired network segments and considered as as layer 2 OSI device:
   1. Wireless network segments WAP bridges (802.11)
   2. Ethernet network segments (802.3)
 > WAP are capable to utilizing encyrption to help esure a secure network networking enviroment.
 > WAP only communicate with local network devices
 ```
+- Multilayer Switch (MLS)
 ```markdown
--
+> MLS provides normal layer 2 network switching services, but also provide layer 3 or higher OSI model services.
+> Most common MLS is a layer 3 switch.
+> MLS commonly implements security at layer 2 and higher on OSI model.
+```
+- Router
+```markdown
+> Most common network device for connecting different network together utilizing the layer 3 OSI model logical network information.
+> Router uses software programming for decision making, as compared to the switches use of an ASIC chip.
+> Firewall and ACL usually placed on router to help secure networks
 
 
 ### Markdown
