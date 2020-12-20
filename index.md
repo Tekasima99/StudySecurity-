@@ -45,6 +45,18 @@ Layer 1 = Physical
 > Most common network device for connecting different network together utilizing the layer 3 OSI model logical network information.
 > Router uses software programming for decision making, as compared to the switches use of an ASIC chip.
 > Firewall and ACL usually placed on router to help secure networks
+```
+- Firewall
+```markdown
+> Can be placed on router or host (software based) or  can be its own device(network appliance)
+> It function on multiple layer of OSI model layer(2,3,4,7).
+> Block packet from entering and leaving the network:
+ 1. Stateless Inspection, which examine every packet that against a set of rule. When packet matches a rule, the rule is enforced and the specified action is taken.
+ 2. Stateful Inspection, which the firewall only examine the state of the connection between networks specially when a connection is made from an internal network to an external network, the firewall will not examine any packets running from the external connection. As a general rule, external connetion not allowed to be initiated with the internal network.
+> First line of defense.
+```
+- Load Balancer
+```markdown
 
 
 ### Markdown
