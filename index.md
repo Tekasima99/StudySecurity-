@@ -1,9 +1,9 @@
-###INTRODUCTION TO NETWORK DEVICES (PART 1)
+# INTRODUCTION TO NETWORK DEVICES (PART 1)
 
 - Open System Interconnection model
 - Basic Network Devices
 
-Open System Interconnection model:
+## Open System Interconnection model:
 
 Was developed way to help disparate computing systems communication with each other.
 Security can be place in various layers of OSI model to create a layered security arrangement that will improve the security of an overall performance
@@ -18,6 +18,24 @@ Layer 3 = Network
 Layer 2 = Data Link
 Layer 1 = Physical
 ```
+## Basic Network Devices
+- Switch
+```markdown
+> Utilized as an Application-Specific Integrated Circuit(ASIC) and considered as LAYER 2 OSI device:
+ 1. ASIC chip has specific programing that allow switch to learn when a device is on the network and which ports it is connected       to cia that device's layer 2 MAC address.
+> Managed switches allow for security to be placed on inviduals switch ports and creating more secure enviroment in networking
+> Switch only communicate with local network devices.
+```
+```markdown
+- Wireless Access Point(WAP)
+> WAP is a specific type of network that connect wireless network segments with wired network segments and considered as as layer   2 OSI device:
+  1. Wireless network segments WAP bridges (802.11)
+  2. Ethernet network segments (802.3)
+> WAP are capable to utilizing encyrption to help esure a secure network networking enviroment.
+> WAP only communicate with local network devices
+```
+```markdown
+-
 
 
 ### Markdown
