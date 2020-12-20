@@ -1,4 +1,4 @@
-INTRODUCTION TO NETWORK DEVICES (PART 1)
+###INTRODUCTION TO NETWORK DEVICES (PART 1)
 
 - Open System Interconnection model
 - Basic Network Devices
@@ -17,6 +17,7 @@ Layer 4 = Transport
 Layer 3 = Network
 Layer 2 = Data Link
 Layer 1 = Physical
+```
 
 
 ### Markdown
