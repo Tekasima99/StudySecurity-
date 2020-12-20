@@ -27,13 +27,13 @@ Layer 1 = Physical
 > Switch only communicate with local network devices.
 
 - Wireless Access Point(WAP).
-```markdown
+
 > WAP is a specific type of network that connect wireless network segments with wired network segments and considered as as layer 2 OSI device:
   1. Wireless network segments WAP bridges (802.11)
   2. Ethernet network segments (802.3)
 > WAP are capable to utilizing encyrption to help esure a secure network networking enviroment.
 > WAP only communicate with local network devices
-```
+
 - Multilayer Switch (MLS).
 ```markdown
 > MLS provides normal layer 2 network switching services, but also provide layer 3 or higher OSI model services.
