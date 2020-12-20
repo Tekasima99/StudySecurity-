@@ -1,8 +1,23 @@
 INTRODUCTION TO NETWORK DEVICES (PART 1)
 
-You can use the [editor on GitHub](https://github.com/Tekasima99/StudySecurity-/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+- Open System Interconnection model
+- Basic Network Devices
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Open System Interconnection model:
+
+Was developed way to help disparate computing systems communication with each other.
+Security can be place in various layers of OSI model to create a layered security arrangement that will improve the security of an overall performance
+
+OSI LAYER:
+```markdown
+layer 7 = Application
+Layer 6 = Presentation
+Layer 5 = Session
+Layer 4 = Transport
+Layer 3 = Network
+Layer 2 = Data Link
+Layer 1 = Physical
+
 
 ### Markdown
 
