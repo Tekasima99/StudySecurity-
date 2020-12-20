@@ -70,7 +70,7 @@ Layer 1 = Physical
 > Can be utilized to filter allowed content.
 > Can be increase performance by caching commonly requested web pages.
 
-# INTRODUCTION TO NETWORK DEVICES PART 2 (https://guides.github.com/features/mastering-markdown/)
+## INTRODUCTION TO NETWORK DEVICES PART 2 (https://guides.github.com/features/mastering-markdown/)
  
  
  
