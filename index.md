@@ -152,16 +152,16 @@ Layer 1 = Physical
  1. Most cases receive of spam is not a security threat, but it considered a waste of resources.
 ### Filter for spam:
 > it usually put on the SMTP server to reduce the amount of spam that is received.
- 1. Real-time blacklist (RBL): 
-  - A subscription services that provides a list of known IP address of spam hosts, which than allow them to be blocked.
-	2.  Connection Filter:
-		- Prohibiting a list of specific IP addresses from connecting to a SMPT server.
-	3. Recipient Filter:
-		- Blocking messages sent from a particular recipient.
-	4. Sender Filter:
-		- Blocking messages sent form particular entity.
-	5. Sender ID Filter:
-  - Allow an SMTP server to review the sender policy framework (SPF) record of the sender in DNS. If the sending SMTP server is listed then the messages is accepted
+1. Real-time blacklist (RBL): 
+- A subscription services that provides a list of known IP address of spam hosts, which than allow them to be blocked.
+2.Connection Filter:
+Prohibiting a list of specific IP addresses from connecting to a SMPT server.
+3. Recipient Filter:
+- Blocking messages sent from a particular recipient.
+4. Sender Filter:
+- Blocking messages sent form particular entity.
+5. Sender ID Filter:
+- Allow an SMTP server to review the sender policy framework (SPF) record of the sender in DNS. If the sending SMTP server is listed then the messages is accepted
 ### History Of SPAM:
 > Occur in 1978 which involved an advertisement for Digital Equipment Corporation (DEC) computers
 > While the reaction for UBE is negative, but it did some sales.
