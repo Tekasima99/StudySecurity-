@@ -84,28 +84,16 @@ Layer 1 = Physical
  2. This another layer are allowed to cross through it.
  3. Some devices for application aware include firewalls, proxy servers, and network intrusion detection/prevention system.
  
- ## Network Devices
+## Network Devices
  
- ### Virtual Private Network (VPN)
+### Virtual Private Network (VPN)
  
  > VPN will facilitate multiple secure VPN connections to a network.
  > The type of VPN will determine what tunnelling and encryption the VPN concentrator will implement.
  > Most concentrator can function at multiple layer of the OSI model (Layer 2,3 and 7).
  > Outside of internet transaction which use SSL VPN connection (Layer 7) and concentrator will function on layer 3 of OSI model that provide IPsec encryption though a secure tunnel.
  
- ### Network Intrusion Detection System (NIDS)
- 
- > Is a passive system designed to identify when a network breach or attack against the network occur:
-  1. usually designed to inform a network administrator when breach is occur.
-  2. The file will send throgh log files, SMS, and/or an email notification.
- > NIDS cannot be prevent or stop a breach or attack against on its own.
- > It receive copy of all traffic and evaluates it against a set of standards:
-  1. Signature Based: 
-   - Evaluated network traffic for known malware or attack signatures.
-  2. Anomaly Based: 
-   - Evaluate network traffic for suspicious changes.
-  3. 
-  
+### Network Intrusion Detection System (NIDS) 
 
 > Is a passive system designed to identify when a network breach or attack against the network occur:
   1. usually designed to inform a network administrator when breach is occur.
