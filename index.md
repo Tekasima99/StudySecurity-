@@ -175,21 +175,28 @@ Prohibiting a list of specific IP addresses from connecting to a SMPT server.
 > A system designed to protect network from malicious content that is on the internet.
 1. It can be used to filter prohibited content.
 2. It can be used to scan for malicious code.
+
 > These can also be use as a data loss prevention (DLP) measure:
  1. Outgoing content is scanned. If sensitive content is discovered in the scan, It is not allowed to leave the network
  
 ### Protocol analyzer:
 > Often called as packet sniffer.
+
 > Examines the network behaviour at very basic level; they allow for the examination of the individual packets of data.
+
 > Can be used to see what consuming network resources is (e.g., is something going bad with the interface).
+
 > Can be use to identify network breach or attack.
+
 > Can be used to study the method used to create the network breach.
 
 > Tools:
 1. Wireshark.
 ### Web Application Firewall:
 > Is an application layer (Layer 7) firewall that is used to control HTTP traffic that can reach the webserver.
+
 > This allow greater inspection and control of messages and traffic that is destined to a network’s Web Servers.
+
 > This can control and protect the servers from common attack.
 
 > Web application Firewall is different from normal network firewall:
