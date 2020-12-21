@@ -145,11 +145,13 @@ Layer 1 = Physical
 # INTRODUCTION TO NETWORK DEVICES [PART 3]
 - Spam Filter.
 - Network Devices.
+
 ## spam Filter
 ### Spam Define:
 > Defined as unsolicited bulk email (UBE), or junk email.
 > The spammer is hoping that the recipient will buy a product or service:
  1. Most cases receive of spam is not a security threat, but it considered a waste of resources.
+ 
 ### Filter for spam:
 > it usually put on the SMTP server to reduce the amount of spam that is received.
 1. Real-time blacklist (RBL): 
@@ -162,31 +164,36 @@ Prohibiting a list of specific IP addresses from connecting to a SMPT server.
 - Blocking messages sent form particular entity.
 5. Sender ID Filter:
 - Allow an SMTP server to review the sender policy framework (SPF) record of the sender in DNS. If the sending SMTP server is listed then the messages is accepted
+
 ### History Of SPAM:
 > Occur in 1978 which involved an advertisement for Digital Equipment Corporation (DEC) computers
 > While the reaction for UBE is negative, but it did some sales.
 > The term is known as UBE. Because of Monty Python’s flying Circus for the term SPAM in 1970. This effectively may block the useful information
+
 ## Network Devices 
 ### Web Security Gateway:
 > A system designed to protect network from malicious content that is on the internet.
-	1. It can be used to filter prohibited content.
-	2. It can be used to scan for malicious code.
+1. It can be used to filter prohibited content.
+2. It can be used to scan for malicious code.
 > These can also be use as a data loss prevention (DLP) measure:
  1. Outgoing content is scanned. If sensitive content is discovered in the scan, It is not allowed to leave the network
+ 
 ### Protocol analyzer:
 > Often called as packet sniffer.
 > Examines the network behaviour at very basic level; they allow for the examination of the individual packets of data.
 > Can be used to see what consuming network resources is (e.g., is something going bad with the interface).
 > Can be use to identify network breach or attack.
 > Can be used to study the method used to create the network breach.
+
 > Tools:
-	1. Wireshark.
+1. Wireshark.
 ### Web Application Firewall:
 > Is an application layer (Layer 7) firewall that is used to control HTTP traffic that can reach the webserver.
 > This allow greater inspection and control of messages and traffic that is destined to a network’s Web Servers.
 > This can control and protect the servers from common attack.
+
 > Web application Firewall is different from normal network firewall:
-	1. Web application Firewall protect what is attempting to the web server.
-	2. Network Firewall protect the network as a whole.
+1. Web application Firewall protect what is attempting to the web server.
+2. Network Firewall protect the network as a whole.
 
 
