@@ -111,6 +111,36 @@ Layer 1 = Physical
 > May be deployed at the host level:
  1. Host-based Intrusion Detection System (HIDS)
 
+### Network-based Intrusion Prevention System (NIPS)
+> NIPS is an active system designed stop a breach or attack from succeeding in damaging the network:
+ 1. Perform an action or set of actions to stop the malicious activity.
+ 2. Will inform the network administrator through the use of log files, SMS, and email notification.
+> All traffic will go though the NIPS to either enter or leave the segment:
+ 1. All traffic is evaluated against a set of standards.
+> Placement of NIPS is on between a router (with a firewall) and the destination network segment.
+> NIPS will be active on response of situation:
+ 1. Block the offending IP address.
+ 2. Close the vulnerable interface.
+ 3. Terminate the network session.
+ 4. Redirect the attack.
+ 5. Perform additional actions.
+###	UNIFIED Threat Management (UTM) Security Appliance
+ > All possible all in one security solution:
+ 1. Contains firewall features.
+ 2. Contains IDS features.
+ 3. Contains antivirus and antimalware features.
+ 4. Contains anti-spam features.
+ 5. Can perform content and URL (Web) filtering.
+ 6. Can also perform additional functions.
+> In a form of a network appliance.
+ 1. Special designed piece of hardware with an integrated software package-creating a closed system.
+> Pros:
+ 1. Provide multiple security features in a central location.
+ 2. Simplifies management of security.
+ 3. Eases updating security.
+> Cons:
+ 1. Concentrates security in a single system or location.
+ 2. This can create a single point of failure for both the network and for security.
 
  
 
