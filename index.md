@@ -112,16 +112,16 @@ Layer 1 = Physical
   2. The file will send throgh log files, SMS, and/or an email notification.
 > NIDS cannot be prevent or stop a breach or attack against on its own.
 > It receive copy of all traffic and evaluates it against a set of standards:
-1. Signature Based: 
-- Evaluated network traffic for known malware or attack signatures.
-2. Anomaly Based: 
-- Evaluate network traffic for suspicious changes.
-3. Policy Based:
-- Evaluate network traffic against a specific declared security policy
-4. heuristic Based:
-- Evaluate network traffic against past network behaviour (look for expected pattern changes)
+ 1. Signature Based: 
+  - Evaluated network traffic for known malware or attack signatures.
+ 2. Anomaly Based: 
+  - Evaluate network traffic for suspicious changes.
+ 3. Policy Based:
+  - Evaluate network traffic against a specific declared security policy
+ 4. heuristic Based:
+  - Evaluate network traffic against past network behaviour (look for expected pattern changes)
 > May be deployed at the host level:
-1. Host-based Intrusion Detection System (HIDS)
+ 1. Host-based Intrusion Detection System (HIDS)
 
 
  
