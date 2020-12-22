@@ -124,6 +124,7 @@ Layer 1 = Physical
  3. Terminate the network session.
  4. Redirect the attack.
  5. Perform additional actions.
+ 
 ###	UNIFIED Threat Management (UTM) Security Appliance
  > All possible all in one security solution:
  1. Contains firewall features.
@@ -283,6 +284,8 @@ Prohibiting a list of specific IP addresses from connecting to a SMPT server.
 - Hacker sends more information to the application than the application’s memory buffer can handle.
 1. The additional information will often be placed in memory outside the buffer.
 2. If the hacker can get the right information stored outside of the buffer, hacker can execute code with administrative privilege.
+-For example, an attacker may introduce extra code, sending new instructions to the application to gain access to IT systems.
+-If attackers know the memory layout of a program, they can intentionally feed input that the buffer cannot store, and overwrite areas that hold executable code, replacing it with their own code. For example, an attacker can overwrite a pointer (an object that points to another area in memory) and point it to an exploit payload, to gain control over the program.
 
 ## Integer Overflow Attack.
 
