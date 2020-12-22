@@ -339,30 +339,30 @@ Prohibiting a list of specific IP addresses from connecting to a SMPT server.
 2. To ensure that non-required action is not allowed.
 
 ## Additional secure network administration concepts
-- Secure router configuration:
-1. Put active ACLs in a place. Disable default username and password. Require passwords for all access to the router. Whenever possible, use only secure protocol for access.
+1. Secure router configuration:
+- Put active ACLs in a place. Disable default username and password. Require passwords for all access to the router. Whenever possible, use only secure protocol for access.
 
-- Port Security:
-1. Enable security on all switch ports. This limits the ability of an attacker to gain access through a switch. MAC filtering is the security method that is most used.
+2. Port Security:
+- Enable security on all switch ports. This limits the ability of an attacker to gain access through a switch. MAC filtering is the security method that is most used.
 
-- Network Separation:
-1. Separate and group network resources by function and security needs. This can create more secure areas within a network. Separation can be achieved through VLAN management.
+3. Network Separation:
+- Separate and group network resources by function and security needs. This can create more secure areas within a network. Separation can be achieved through VLAN management.
 
-- VLAN management:
-1. Change default management VLANs. Proper VLAN management keeps network traffic where it belongs. To allow inter-VLAN communication, the traffic must pass through a router.
+4. VLAN management:
+- Change default management VLANs. Proper VLAN management keeps network traffic where it belongs. To allow inter-VLAN communication, the traffic must pass through a router.
 
-- Flood Guards:
-1. Most common attack is DOS attack. The attacker floods the network with traffic to block legitimate traffic. Flood guards can recognize the pattern and defend from flood attack.
+5. Flood Guards:
+- Most common attack is DOS attack. The attacker floods the network with traffic to block legitimate traffic. Flood guards can recognize the pattern and defend from flood attack.
 
-- Loop protection:
-1. Preventing unnecessary network traffic. Redundant routes can create routing loops. Routers use a time-to-live (TTL) value and split horizon to combat this. Redundant links on switches can also creates loops. Spanning Tree Protocol (STP) will negate the loops.
+6. Loop protection:
+- Preventing unnecessary network traffic. Redundant routes can create routing loops. Routers use a time-to-live (TTL) value and split horizon to combat this. Redundant links on switches can also creates loops. Spanning Tree Protocol (STP) will negate the loops.
 
-- 802.1x:
-1. 802.1x is an authentication protocol used on wireless networks. It requires users to authenticate against a central database before access to the network is granted.
+7. 802.1x:
+- 802.1x is an authentication protocol used on wireless networks. It requires users to authenticate against a central database before access to the network is granted.
 
-- Unified Management:
-1. is a possible all-in-one security solution. UTM system provide multiple security function (firewall and antivirus) ian a single network appliance.
+8. Unified Management:
+- is a possible all-in-one security solution. UTM system provide multiple security function (firewall and antivirus) ian a single network appliance.
 
-- Log Analysis:
-1. Security, system and application logs must reviewed on a regular basis. All to often they are only reviewed when problem has occurred in log files.
+9. Log Analysis:
+- Security, system and application logs must reviewed on a regular basis. All to often they are only reviewed when problem has occurred in log files.
 
