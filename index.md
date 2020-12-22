@@ -309,4 +309,60 @@ Prohibiting a list of specific IP addresses from connecting to a SMPT server.
 2. The best defence begin with the application’s developer. Most attack against application involve exploiting outside input to the application. By using proper data validation technique, developer can stop most application attack from succeeding.
 3. All data validation needs to test through unaffiliated person or organization in order to increase effectiveness of testing.
 
+# Secure Network Administration Concept [Part 6]
+- Ruled-based management
+- Additional secure network administration concepts.
+
+## Rule Based management field.
+- Used to create a secure network environment. Rule-Based management should be designed and tested to ensure that the rule function as expected.
+
+## Firewall rules.
+- Should be configured in such a way that only the required traffic can pass through.
+1. Whenever possible, the default rule should be denying traffic.
+2. Exceptions are then created to allow the required traffic.
+
+- The last rule on any firewall should be an implicit deny statement.
+1. Unless explicit allowed, the traffic is denied entry into the network
+
+## Access Control List (ACL).
+- Firewall rules often called ACLs.
+- Files and folders can have ACLs placed on them using permissions.
+- Router can have two ACLs per network interface:
+1. One ACL is on the inbound side of interface.
+2. The other ACL is on the outbound of the interface.
+
+-   All ACL end with an implicit denies statement.
+1. If not explicitly allowed in the ACL, the traffic or request is denied.
+
+- Once created, the ACL should be tested for functionality.
+1. To ensure that required action are allowed.
+2. To ensure that non-required action is not allowed.
+
+## Additional secure network administration concepts
+- Secure router configuration:
+1. Put active ACLs in a place. Disable default username and password. Require passwords for all access to the router. Whenever possible, use only secure protocol for access.
+
+- Port Security:
+1. Enable security on all switch ports. This limits the ability of an attacker to gain access through a switch. MAC filtering is the security method that is most used.
+
+- Network Separation:
+1. Separate and group network resources by function and security needs. This can create more secure areas within a network. Separation can be achieved through VLAN management.
+
+- VLAN management:
+1. Change default management VLANs. Proper VLAN management keeps network traffic where it belongs. To allow inter-VLAN communication, the traffic must pass through a router.
+
+- Flood Guards:
+1. Most common attack is DOS attack. The attacker floods the network with traffic to block legitimate traffic. Flood guards can recognize the pattern and defend from flood attack.
+
+- Loop protection:
+1. Preventing unnecessary network traffic. Redundant routes can create routing loops. Routers use a time-to-live (TTL) value and split horizon to combat this. Redundant links on switches can also creates loops. Spanning Tree Protocol (STP) will negate the loops.
+
+- 802.1x:
+1. 802.1x is an authentication protocol used on wireless networks. It requires users to authenticate against a central database before access to the network is granted.
+
+- Unified Management:
+1. is a possible all-in-one security solution. UTM system provide multiple security function (firewall and antivirus) ian a single network appliance.
+
+- Log Analysis:
+1. Security, system and application logs must reviewed on a regular basis. All to often they are only reviewed when problem has occurred in log files.
 
