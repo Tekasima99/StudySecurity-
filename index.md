@@ -203,4 +203,57 @@ Prohibiting a list of specific IP addresses from connecting to a SMPT server.
 1. Web application Firewall protect what is attempting to the web server.
 2. Network Firewall protect the network as a whole.
 
+# integrating Data and System with third parties 
+- Evaluate the risks of integration.
+- Considerations of integration.
+
+## Evaluate the risks of integration
+> The key is to know the risk
+ 
+> System and data may be required to integrated because of joint venture with another entity. When implementing the cloud computing, there will be needed to integrate systems and data.
+
+> The need is well known intentional, while the other case it may not recognized as happening. When people use social media, the may actually integrate the company data with third party.
+
+> In all case, there is a risk within the integration data with third parties.
+
+## Considerations of integration [PART 4]
+### Risk awareness:
+1. Always evaluate the risk when integrating system and data with third parties:
+- Data may reside out of control of the business.
+- Network transmission may be vulnerable.
+- The other side of integration may not be secure.
+- The party may go out of business.
+
+### Onboarding and offboarding of business partners.
+1.  THE ONBOARDING PROCESS: Procedures and systems need to be put in place that will allow authorized people from the third-party business partner to access the appropriate system and data.
+- Implementing an identify and access management (IAM) system can help ease the burden.
+2. THE OFFBOARDING PROCESS: Procedures and systems also need to be put in place to remove access once the partnership is terminated or the authorized person leaves the business partner.
+
+### Interoperability agreements.
+1. If the integration of the risk is acceptable, some of additional agreement need to be created to help the process:
+- MEMORANDUM OF UNDERSTANDING (MOU): A document that is created that established an agreement between two parties.
+- BLANKET PURCHASE AGREEMENT (BPA): A document created and used for covering repetitive needs for products or services.
+- SERVICE LEVEL AGREEMENT (SLA): An agreement that specifies the guaranteed uptime of the system.
+- INTERNET SERVICE AGREEMENT (ISA): Specifies any data limits places on an internet connection and should contain a guarantee of the amount of uptime of the internet connection.
+
+### Data Backups.
+1. Cloud storage may be the best solution to off site storage for the data backups-mitigating the risk of data loss in case of a disaster.
+- A risk associated with the third party; All backups store offsite should be encrypted.
+ 
+### Data ownership.
+1. There must be clear understanding of data ownership before integration of system and data is undertaken.
+- Some third parties consider all data stored on their systems as being their data.
+
+### Compliance and Performance Standard.
+1. Real all the agreements with third parties carefully to ensure that what they offer an/or provide meets with the compliance standards that are required.
+- In some cases, it is not only inappropriate to integrate data with a third party, but it may also actually be in violation of the law.
+
+### Follow security policies and procedures.
+1. Security policies and procedures should be in place to protect the integrity of the business’s system.
+- At least one of the policies needs to define what is unauthorized sharing of data.
+
+### Social media represents a type of data integration that may be difficult to control.
+1. With the increase on social media network and application, company data may not necessarily be under control of the proper entities.
+2. Companies should strive to train personnel on what appropriate to share on social media and what should not. 
+3. It is possible that company sensitive information may be shared on social media.
 
