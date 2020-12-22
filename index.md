@@ -257,3 +257,55 @@ Prohibiting a list of specific IP addresses from connecting to a SMPT server.
 2. Companies should strive to train personnel on what appropriate to share on social media and what should not. 
 3. It is possible that company sensitive information may be shared on social media.
 
+# Type of Application Attack 1 [PART5]
+- Application attacks defined.
+- Common application attacks.
+> Due to improvement in modern network security, it may not be easy to exploit the network resources.
+
+> As the improvement in modern network security, attackers have shifted their focus to application attacks. The hacker will focus on exploiting weakness in the software and operating systems that people use every day.
+
+> A poorly developed application can often give the hacker an access to system if the exploit executed perfectly.
+
+## Cross-Site Scripting (XSS) Attack.
+
+### The hacker inserts script code into a form on a web page that get submitted to the server:
+1. The server submit the script code to another client system, which then executes the script.
+### XSS often used to attack database servers that are used to support web pages.
+
+## Structured Query Language (SQL) injection attack.
+
+### SQL is the common language used to manipulate databases. Most business and web app use SQL to retrieve data from databases.
+### To perform attack, hacker insert SQL commands to application, usually from an input field, knowing that the application will pass the command to the database application:
+1. The injected SQL commands will then modify the database such as inserting new username and password, so that will enable access to hacker to exploit.
+
+## Buffer Overflow Attack.
+
+### Hacker sends more information to the application than the application’s memory buffer can handle.
+1. The additional information will often be placed in memory outside the buffer.
+2. If the hacker can get the right information stored outside of the buffer, hacker can execute code with administrative privilege.
+
+## Integer Overflow Attack.
+
+### Like buffer overflow but exploit with mathematical function of an application.
+1. When a mathematical function returns an integer larger than the memory space that has been allocated to receive it, application often respond in unexpected ways; This represents a security issue.  
+
+## Directory Traversal/Command Injection Attack.
+
+### Attack against server which hacker attempts to traverse the web server’s directories where the hacker can execute command on the web server OS:
+1. Hacker manipulate the URL request in order to get into directories and get a command prompt on the undelaying OS.
+
+## LDAP (Lightweight Directory Access Protocol) injection attack.
+
+### Uses same principle as an SQL injection attack, but exploits LDAP calls instead of SQL commands.
+
+## XML (Extensible Markup Language) Injection attack.
+
+### Uses same principle as the SQL and LDAP attacks, but exploit XMP to modify the targeted application.
+
+- One of largest network threat is ZERO DAY ATTACKS. The attack advantage of either new or very recently discovered vulnerabilities in applications, which means that the networks and systems probably have not yet been hardened against them. Security expert must up be willing to adapt to keep pace.
+
+-   The best defence begin with the application’s developer. Most attack against application involve exploiting outside input to the application. By using proper data validation technique, developer can stop most application attack from succeeding.
+
+- All data validation needs to test through unaffiliated person or organization in order to increase effectiveness of testing.
+
+
