@@ -203,7 +203,7 @@ Prohibiting a list of specific IP addresses from connecting to a SMPT server.
 1. Web application Firewall protect what is attempting to the web server.
 2. Network Firewall protect the network as a whole.
 
-# integrating Data and System with third parties 
+## integrating Data and System with third parties 
 - Evaluate the risks of integration.
 - Considerations of integration.
 
@@ -216,7 +216,7 @@ Prohibiting a list of specific IP addresses from connecting to a SMPT server.
 
 > In all case, there is a risk within the integration data with third parties.
 
-## Considerations of integration [PART 4]
+# Considerations of integration [PART 4]
 ### Risk awareness:
 1. Always evaluate the risk when integrating system and data with third parties:
 - Data may reside out of control of the business.
